@@ -60,5 +60,25 @@ const Country = [
     url: "https://cdn-icons-png.flaticon.com/128/3909/3909136.png",
   },
 ];
-const data = { category, Country };
+const News = [
+  {
+    name: "BBC News",
+    code: "bbc-news",
+    url: "https://download.logo.wine/logo/BBC_News/BBC_News-Logo.wine.png",
+    alt: "bbc-news icon",
+  },
+  {
+    name: "CNN News",
+    code: "cnn",
+    url: "https://download.logo.wine/logo/CNN/CNN-Logo.wine.png",
+    alt: "cnn-news icon",
+  },
+  {
+    name: "Fox News",
+    code: "fox-news",
+    url: "https://logos-world.net/wp-content/uploads/2020/11/Fox-News-Channel-Emblem.png",
+    alt: "fox-news icon",
+  },
+];
+const data = { category, Country, News };
 export default data;
